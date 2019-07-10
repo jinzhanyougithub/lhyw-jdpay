@@ -1,0 +1,22 @@
+{
+    "name": "lhyw/jdpay",
+    "description": "京东网关支付",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jinzhanyou",
+            "email": "jinzhanyou@enet360.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Lhyw\\JdPay\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Lhyw\\JdPay\\Tests\\": "tests/"
+        }
+    },
+    "require": {}
+}
