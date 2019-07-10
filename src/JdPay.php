@@ -4,13 +4,8 @@ namespace Lhyw\JdPay;
 
 class JdPay
 {
-    public function __construct($config)
+    public static function execute($data)
     {
-        dump($config);
-    }
-
-    public function printRunning()
-    {
-        echo 'running';
+        return $data;
     }
 }
